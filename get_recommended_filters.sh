@@ -6,9 +6,11 @@ touch input.csv
 # declare an array of urls
 urls=(
   https://adaway.org/hosts.txt
+  https://raw.githubusercontent.com/bigdargon/hostsVN/master/filters/adservers-all.txt
+  https://raw.githubusercontent.com/bigdargon/hostsVN/master/filters/adservers.txt
   https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
-  https://github.com/abpvn/abpvn/blob/master/filter/abpvn.txt
   https://raw.githubusercontent.com/nmtrung/FMSF-2.0/master/fmsf_2.0.txt
+  https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn.txt
 )
 
 # loop through the urls and download each file with curl
