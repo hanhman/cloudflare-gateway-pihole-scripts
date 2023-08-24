@@ -5,12 +5,15 @@ touch input.csv
 
 # declare an array of urls
 urls=(
+  https://raw.githubusercontent.com/mullvad/dns-blocklists/main/output/doh/doh_adblock.txt
+  https://raw.githubusercontent.com/mullvad/dns-blocklists/main/output/doh/doh_gambling.txt
+  https://raw.githubusercontent.com/mullvad/dns-blocklists/main/output/doh/doh_privacy.txt
+  https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
+  https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
   https://adaway.org/hosts.txt
-  https://raw.githubusercontent.com/bigdargon/hostsVN/master/filters/adservers-all.txt
-  https://raw.githubusercontent.com/bigdargon/hostsVN/master/filters/adservers.txt
-  https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
-  https://raw.githubusercontent.com/nmtrung/FMSF-2.0/master/fmsf_2.0.txt
-  https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn.txt
+  https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+  https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/domain.txt
+  https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 )
 
 # loop through the urls and download each file with curl
