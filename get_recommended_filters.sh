@@ -8,6 +8,8 @@ urls=(
   https://adaway.org/hosts.txt
   https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
   https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/domain-VN.txt
+  https://github.com/hanhman/abpvn/blob/master/filter/abpvn.txt
+  https://github.com/nmtrung/FMSF-2.0/blob/master/fmsf_2.0.txt
 )
 
 # loop through the urls and download each file with curl
