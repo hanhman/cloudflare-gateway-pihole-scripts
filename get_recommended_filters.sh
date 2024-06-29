@@ -10,6 +10,7 @@ urls=(
   https://github.com/hanhman/abpvn/blob/master/filter/abpvn.txt  
   https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardDNS.txt
   https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+  https://adaway.org/hosts.txt
   )
 
 # loop through the urls and download each file with curl
